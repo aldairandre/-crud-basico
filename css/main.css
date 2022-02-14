@@ -5,10 +5,10 @@
 }
 
 :root{
-    --primary-color: #FFBA00;
+    --primary-color: #000000;
     --secundary-color: #FFF1CC;
     --shadow-color: #CCC;
-    --text-color: #FFF;
+    --text-color: #ffffff;
 }
 
 body{
@@ -28,7 +28,7 @@ header{
 }
 
 .header-title{
-    color: black;
+    color: var(--text-color);
     font-size: 2rem;
 }
 
