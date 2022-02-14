@@ -1,11 +1,11 @@
 'use strict'
 
 const openModal = () => document.getElementById('modal')
-    .classList.add('active')
+    .classList.add('active','animate__animated','animate__backInDown')
 
 const closeModal = () => {
     clearFields() 
-    document.getElementById('modal').classList.remove('active')
+    document.getElementById('modal').classList.remove('active','animate__animated','animate__backInDown')
 }
 
 const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? [] //Vai buscar o que tem no meu local Storage caso nao tenha nada retorna um array vazio
